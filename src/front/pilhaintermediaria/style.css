@@ -1,0 +1,30 @@
+.pilha {
+    display: flex;
+    gap: 1rem;
+    list-style: none; 
+    padding: 0px;
+    padding-top: 8%;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+.pilha li {
+    display: block;
+    flex-direction: column; 
+    padding: 8px;
+    height: 100px;
+    min-width: 8rem;
+    position: relative;
+    list-style: none;
+}
+
+.carta {
+    width: 60px;
+    height: auto;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    width: 8rem;
+    transition: top 0.2s ease;
+}

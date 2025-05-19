@@ -1,0 +1,16 @@
+.lista {
+    display: flex;
+    gap: 2rem;
+    list-style: none; 
+    padding: 10px;
+    padding-left: 100px;
+}
+
+.retangulo {
+    float: left;
+    width: 8rem;
+    height: 11rem;
+    border: medium solid rgb(183, 168, 109);
+    background-color: transparent;
+    border-radius: 11%;
+}
