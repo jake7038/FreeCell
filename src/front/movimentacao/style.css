@@ -1,16 +1,49 @@
 .lista {
     display: flex;
+    flex-wrap: wrap;
     gap: 2rem;
     list-style: none; 
     padding: 10px;
-    padding-left: 100px;
 }
 
 .retangulo {
     float: left;
-    width: 8rem;
-    height: 11rem;
+    width: 7.5rem;
+    height: 10.5rem;
     border: medium solid rgb(183, 168, 109);
     background-color: transparent;
     border-radius: 11%;
+}
+
+@media (max-width: 1280px){
+    .lista {
+        gap: 2rem;
+    }
+
+    .retangulo {
+        width: 5.9rem;
+        height: 8.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .lista {
+        gap: 1rem;
+    }
+
+    .retangulo {
+        width: 5.5rem;
+        height: 7.7rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .lista {
+        gap: 0.5rem;
+    }
+
+    .retangulo {
+        width: 4.5rem;
+        height: 6.3rem;
+    }
 }

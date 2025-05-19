@@ -36,7 +36,7 @@ function App() {
   return (
   <>
     <EstiloGlobal></EstiloGlobal>
-    <ul style={{listStyle:"none" , display: "flex", justifyContent: "center"}}>
+    <ul style={{listStyle:"none" , display: "flex", justifyContent: "center", gap:"2rem"}}>
       <li>
         <Movimentacao espaco1={espaco1} espaco2={espaco2} espaco3={espaco3} espaco4={espaco4} setEspaco1={setEspaco1} setEspaco2={setEspaco2} setEspaco3={setEspaco3} setEspaco4={setEspaco4} pilhas={pilhas} setPilhas={setPilhas} ></Movimentacao>
       </li>

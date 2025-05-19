@@ -3,9 +3,10 @@
     gap: 1rem;
     list-style: none; 
     padding: 0px;
-    padding-top: 8%;
+    padding-top: 1.4rem;
     align-items: flex-start;
     justify-content: center;
+    flex-wrap: wrap;
     
 }
 
@@ -13,18 +14,64 @@
     display: block;
     flex-direction: column; 
     padding: 8px;
-    height: 100px;
-    min-width: 8rem;
+    height: 5rem;
+    min-width: 7rem;
     position: relative;
     list-style: none;
 }
 
 .carta {
-    width: 60px;
+    width: 5rem;
     height: auto;
     display: block;
     cursor: pointer;
     position: absolute;
-    width: 8rem;
+    width: 7rem;
     transition: top 0.2s ease;
+}
+
+@media (max-width: 1280px){
+    .pilha {
+        gap: 1.7rem;
+    }
+
+    .pilha li {
+        padding: 10px;
+        min-width: 6.5rem;
+    }
+
+    .carta {
+        width: 6.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .pilha {
+        gap: 0.7rem;
+    }
+
+    .pilha li {
+        padding: 5px;
+        min-width: 5.5rem;
+    }
+
+    .carta {
+        width: 5.5rem;
+    }
+}
+
+/* Responsivo para celulares */
+@media (max-width: 480px) {
+    .pilha {
+        gap: 0.5rem;
+    }
+
+    .pilha li {
+        padding: 4px;
+        min-width: 4.5rem;
+    }
+
+    .carta {
+        width: 4.5rem;
+    }
 }

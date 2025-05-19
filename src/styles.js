@@ -4,6 +4,7 @@ const EstiloGlobal = createGlobalStyle`
     body{
 
         background-image: url("/assets/fundo.png");
+        background-repeat:  repeat;
         background-size: cover;
         color: white;
     }

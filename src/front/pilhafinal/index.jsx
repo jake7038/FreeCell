@@ -1,4 +1,3 @@
-import './style.css'
 import { useState } from 'react'
 import { handleDropFinal } from '../../logica/handleDropfinal';
 import { handleArrastarSec } from '../../logica/handleArrastar';
